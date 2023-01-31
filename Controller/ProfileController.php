@@ -1,5 +1,8 @@
 <?php
 
+session_start();
+error_reporting(0);
+
 use Model\UserProfileModel;
 
 require_once '../Model/UserProfileModel.php';
@@ -7,7 +10,6 @@ class ProfileController{
     public $userType;
 
     public $row;
-
 }
 
 $profile = new UserProfileModel();
@@ -26,6 +28,9 @@ if($profile->getUserType() == 'Staff'){
 if ($profile->getUserType() == 'Faculty'){
     $profileController->row = $profile->facultyProfile();
 }
+
+$userType = $profile->getUserType();
+$row = $profileController->row;
 
 include '../View/profile.php';
 
