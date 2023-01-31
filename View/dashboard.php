@@ -146,7 +146,7 @@
       <div class="col-sm-3">
         <h3>Your BusKaro Profile</h3><br>
         <button type = "button" class = "btn btn-link btn-block">
-          <a href="../View/profile.php"><span class="glyphicon glyphicon-user"></span></a>
+          <a href="../Controller/ProfileController.php"><span class="glyphicon glyphicon-user"></span></a>
         </button>
       </div>
       <div class="col-sm-3">

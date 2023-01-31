@@ -386,6 +386,6 @@ $(document).ready(function(){
 })
 </script>
 
-<?php require('passenger/footer.php') ?>
+<?php require('View/footer.php') ?>
 </body>
 </html>
