@@ -7,10 +7,10 @@
 <body>
 	<?php require 'navbar.php';	?>
 	<div id="mySidenav" class="sidenav">
-	<a href="dashboard.php" id="dashboard">Go Home<span class="glyphicon glyphicon-home"></span></a>
-  <a href="view_tickets.php" id="view">View Tickets<span class="glyphicon glyphicon-qrcode"></span></a>
-  <a href="cancelTicket.php" id="cancel">Cancel Tickets<span class="glyphicon glyphicon-remove-circle"></span></a>
-  <a href="index.php" id="profile">Your Profile<span class="glyphicon glyphicon-user"></span></a>
+	<a href="../View/dashboard.php" id="dashboard">Go Home<span class="glyphicon glyphicon-home"></span></a>
+  <a href="../View/view_tickets.php" id="view">View Tickets<span class="glyphicon glyphicon-qrcode"></span></a>
+  <a href="../View/cancelTicket.php" id="cancel">Cancel Tickets<span class="glyphicon glyphicon-remove-circle"></span></a>
+  <a href="../View/profile.php" id="profile">Your Profile<span class="glyphicon glyphicon-user"></span></a>
 	</div>
 	<div class="container">
 		<div class="alert alert-success">

@@ -116,7 +116,7 @@
         <h3>View Ticket</h3><br>
         <button type = "button" class = "btn btn-link btn-block">
           <!--<img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">-->
-          <a href="../View/view_tickets.php"><span class="glyphicon glyphicon-qrcode"></span></a>
+          <a href="../Controller/TicketViewController.php"><span class="glyphicon glyphicon-qrcode"></span></a>
         </button>
       </div>
       <div class="col-sm-3">

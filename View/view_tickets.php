@@ -8,8 +8,8 @@
 	<?php require 'navbar.php';?>
   <div id="mySidenav" class="sidenav">
   <a href="../View/dashboard.php" id="dashboard">Go Home<span class="glyphicon glyphicon-home"></span></a>
-	<a href="cancelTicket.php" id="cancel">Cancel Tickets<span class="glyphicon glyphicon-remove-circle"></span></a>
-  <a href="bookTicket.php" id="view">Book Tickets<span class="glyphicon glyphicon-send"></span></a>
+	<a href="../View/cancelTicket.php" id="cancel">Cancel Tickets<span class="glyphicon glyphicon-remove-circle"></span></a>
+  <a href="../View/bookTicket.php" id="view">Book Tickets<span class="glyphicon glyphicon-send"></span></a>
   <a href="../View/profile.php" id="profile">Your Profile<span class="glyphicon glyphicon-user"></span></a>
 </div>
   <div class="container">
@@ -31,28 +31,22 @@
           <tbody>
           <?php
 
-            $sql="SELECT Type FROM buskaro.passenger WHERE ID='$userID'";
-            $result = $conn->query($sql);
-            $row=$result->fetch_assoc();
-            $userType=$row['Type'];
-            $sql1 = "SELECT * FROM buskaro.seat_matrix JOIN buskaro.routes ON buskaro.seat_matrix.RID = buskaro.routes.RID WHERE Passenger = '$userID' ORDER BY BusDate DESC";
-            $result1 = $conn->query($sql1);
-            while($row = $result1->fetch_assoc()) {
+          while ($row = $result1->fetch_assoc()) {
               echo '<tr>
-                  <td>'.$row["BID"].'</td>
-                  <td>'.$row["RID"].'</td>
-                  <td>'.$row["BusDate"].'</td>
-                  <td>'.$row["STime"].'</td>
-                  <td>'.$row["Src"].'</td>
-                  <td>'.$row["Dst"].'</td>
-                  <td>'.$row["DTime"].'</td>
-                  <td>'.$row["SeatNo"].'</td>
-                  <td><a href="ticket.php?seat='.$row['SeatNo'].'&bid='.$row['BID'].'" class="btn btn-info" role="button">View</a></td>
+                  <td>' . $row["BID"] . '</td>
+                  <td>' . $row["RID"] . '</td>
+                  <td>' . $row["BusDate"] . '</td>
+                  <td>' . $row["STime"] . '</td>
+                  <td>' . $row["Src"] . '</td>
+                  <td>' . $row["Dst"] . '</td>
+                  <td>' . $row["DTime"] . '</td>
+                  <td>' . $row["SeatNo"] . '</td>
+                  <td><a href="/BusKaro/View/ticket.php?seat=' . $row['SeatNo'] . '&bid=' . $row['BID'] . '" class="btn btn-info" role="button">View</a></td>
                 </tr>';
-				    }
+          }
           ?>
           </tbody>
       </table>
     </div>
-    <?php require_once 'footer.php' ?>
+    <?php require_once '../View/footer.php' ?>
 </body>
