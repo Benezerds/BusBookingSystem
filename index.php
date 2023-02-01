@@ -40,8 +40,8 @@
 	<?php
 require 'dbconn.php';
 ?>
-	<h1>BusKaro</h1>
-	<h3>Book Bus Tickets On The Go</h3>
+	<h1>Bus Management System</h1>
+	<h3>Book bus ticket was never this easier!</h3>
 
 	<br>
 
@@ -141,7 +141,7 @@ require 'dbconn.php';
 		<div class="clear"></div>
 
 	<div class="footer w3layouts agileits">
-    	<p><span class="copyleft">&copy;</span> 2018 BusKaro. </a></p>
+    	<p><span class="copyleft">&copy;</span> 2023. </a></p>
 		<p><a class="underline" href="aboutus.php">About the Project</a></p>
 	</div>
 
