@@ -36,11 +36,11 @@
 			<div id="today" class="tab-pane fade in active">
 			<h4>Buses Leaving Today...</h4>
 	    <?php
-			$sql="SELECT Type FROM buskaro.passenger WHERE ID='$userID'";
+			$sql="SELECT Type FROM busbooking.passenger WHERE ID='$userID'";
 			$result = $conn->query($sql);
 			$row=$result->fetch_assoc();
 			$userType=$row['Type'];
-			$sql_instance="SELECT * FROM buskaro.bus_instances JOIN buskaro.routes ON buskaro.routes.RID=buskaro.bus_instances.RID WHERE BusDate = CURDATE() ORDER BY DepTime ASC;";
+			$sql_instance="SELECT * FROM busbooking.bus_instances JOIN busbooking.routes ON busbooking.routes.RID=busbooking.bus_instances.RID WHERE BusDate = CURDATE() ORDER BY DepTime ASC;";
 			$result = $conn->query($sql_instance);
 			if ($result->num_rows > 0) {
 				echo ' <table class="table table-hover"  style= "overflow-y:scroll; height:800px; display:block">
@@ -85,11 +85,11 @@
 	    <div id="tomorrow" class="tab-pane fade">
     		<h4>Buses Leaving Tomorrow...</h4>
 		<?php
-			$sql="SELECT Type FROM buskaro.passenger WHERE ID='$userID'";
+			$sql="SELECT Type FROM busbooking.passenger WHERE ID='$userID'";
 			$result = $conn->query($sql);
 			$row=$result->fetch_assoc();
 			$userType=$row['Type'];
-			$sql_instance="SELECT * FROM buskaro.bus_instances JOIN buskaro.routes ON buskaro.routes.RID=buskaro.bus_instances.RID WHERE BusDate = CURDATE() + INTERVAL 1 DAY ORDER BY DepTime ASC;";
+			$sql_instance="SELECT * FROM busbooking.bus_instances JOIN busbooking.routes ON busbooking.routes.RID=busbooking.bus_instances.RID WHERE BusDate = CURDATE() + INTERVAL 1 DAY ORDER BY DepTime ASC;";
 			$result = $conn->query($sql_instance);
 			if ($result->num_rows > 0) {
 				echo ' <table class="table table-hover"  style= "overflow-y:scroll; height:800px; display:block">

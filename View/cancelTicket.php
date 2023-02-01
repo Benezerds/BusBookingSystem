@@ -9,7 +9,7 @@
 	if(isset($_GET['alert']))
 	{
 		echo '<div class = container><div class="alert alert-success">
-		  <strong>Yay! Your ticket is cancelled!...</strong> Remember, you can always BusKaro :)
+		  <strong>Yay! Your ticket is cancelled!...</strong> Remember, you can always book your ticket here :)
 		</div></div>';
 	}?>
 	<div id="mySidenav" class="sidenav">
@@ -37,11 +37,11 @@
           <tbody>
           <?php
             $userID = $_SESSION['UserID'];
-            $sql="SELECT Type FROM buskaro.passenger WHERE ID='$userID';";
+            $sql="SELECT Type FROM busbooking.passenger WHERE ID='$userID';";
             $result = $conn->query($sql);
             $row=$result->fetch_assoc();
             $userType=$row['Type'];
-            $sql1 = "SELECT * FROM buskaro.seat_matrix JOIN buskaro.routes ON buskaro.seat_matrix.RID = buskaro.routes.RID WHERE Passenger = '$userID' ORDER BY BusDate DESC;";
+            $sql1 = "SELECT * FROM busbooking.seat_matrix JOIN busbooking.routes ON busbooking.seat_matrix.RID = busbooking.routes.RID WHERE Passenger = '$userID' ORDER BY BusDate DESC;";
             $result1 = $conn->query($sql1);
             while($row = $result1->fetch_assoc()) {
 				        echo '<tr>

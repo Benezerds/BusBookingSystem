@@ -116,7 +116,7 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="passenger/bookTicket.php"><span class="glyphicon glyphicon-log-out"></span>&nbsp;Get Onboard!</a></li>
+        <li><a href="View/bookTicket.php"><span class="glyphicon glyphicon-log-out"></span>&nbsp;Get Onboard!</a></li>
       </ul>
     </div>
   </div>

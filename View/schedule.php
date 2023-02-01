@@ -27,11 +27,11 @@
           </thead>
           <tbody>
           <?php
-            $sql="SELECT Type FROM buskaro.passenger WHERE ID='$userID';";
+            $sql="SELECT Type FROM busbooking.passenger WHERE ID='$userID';";
             $result = $conn->query($sql);
             $row=$result->fetch_assoc();
             $userType=$row['Type'];
-            $sql1 = "SELECT * FROM buskaro.routes ORDER BY STime ASC;";
+            $sql1 = "SELECT * FROM busbooking.routes ORDER BY STime ASC;";
             $result1 = $conn->query($sql1);
             while($row = $result1->fetch_assoc()) {
 				        echo '<tr>

@@ -11,7 +11,7 @@ class UserProfileModel {
         public function __construct()
         {
             $this->userID = $_SESSION['UserID'];
-            $sql = "SELECT Type FROM buskaro.passenger WHERE ID='$this->userID'";
+            $sql = "SELECT Type FROM busbooking.passenger WHERE ID='$this->userID'";
             $this->conn = require("../Dao/Connection.php");
 
             $result = $this->conn->query($sql);
@@ -22,7 +22,7 @@ class UserProfileModel {
         }
 
         public function studentProfile(){
-            $sql_instance = "SELECT * FROM buskaro.student WHERE RollNo='$this->userID'";
+            $sql_instance = "SELECT * FROM busbooking.student WHERE RollNo='$this->userID'";
 
             require_once("../Dao/Connection.php");
             $result = $this->conn->query($sql_instance);
@@ -32,7 +32,7 @@ class UserProfileModel {
 
         public function facultyProfile(){
             require_once ("../Dao/Connection.php");
-            $sql_instance="SELECT * FROM buskaro.faculty WHERE FID='$this->userID';";
+            $sql_instance="SELECT * FROM busbooking.faculty WHERE FID='$this->userID';";
             $result = $this->conn->query($sql_instance);
             $row = $result->fetch_assoc();
             return $row;
@@ -40,7 +40,7 @@ class UserProfileModel {
 
         public function staffProfile(){
             require_once ("../Dao/Connection.php");
-            $sql_instance="SELECT * FROM buskaro.staff WHERE EID='$this->userID';";
+            $sql_instance="SELECT * FROM busbooking.staff WHERE EID='$this->userID';";
             $result = $this->conn->query($sql_instance);
             $row = $result->fetch_assoc();
             return $row;

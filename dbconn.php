@@ -3,7 +3,7 @@ session_start();
 $dbservername = "localhost";
 $dbusername = "root";
 $dbpassword = "";
-$dbname = "buskaro";
+$dbname = "busbooking";
 
 // Create connection
 try {

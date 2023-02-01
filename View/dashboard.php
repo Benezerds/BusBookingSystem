@@ -68,15 +68,15 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="item active">
-        <img src="../images/carousel/bus.jpg" alt="BusKaro">
+        <img src="/BusKaro/images/carousel/bus.jpg" alt="BusKaro">
         <div class="carousel-caption">
-          <h1>BusKaro!</h1>
+          <h1>BusBooking!</h1>
           <h3>Because You Need To Eat Your Lunch In Peace...</h3>
         </div>
       </div>
 
       <div class="item">
-        <img src="../images/carousel/bus_bg.jpeg" alt="BusKaro">
+        <img src="/BusKaro/images/carousel/bus_bg.jpeg" alt="BusKaro">
         <div class="carousel-caption">
           <h1>BusKaro!</h1>
           <h3>Because You Have To Ditch The Queue...</h3>
@@ -84,7 +84,7 @@
       </div>
 
       <div class="item">
-        <img src="../images/carousel/bus2.png" alt="BusKaro">
+        <img src="/BusKaro/images/carousel/bus2.png" alt="BusKaro">
         <div class="carousel-caption">
           <h1>BusKaro!</h1>
           <h3>Because Juniors Baap Ke Naukar Nahin Hai...</h3>
@@ -144,7 +144,7 @@
         </button>
       </div>
       <div class="col-sm-3">
-        <h3>Your BusKaro Profile</h3><br>
+        <h3>Your BusBooking Profile</h3><br>
         <button type = "button" class = "btn btn-link btn-block">
           <a href="../Controller/ProfileController.php"><span class="glyphicon glyphicon-user"></span></a>
         </button>

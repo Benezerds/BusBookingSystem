@@ -39,7 +39,7 @@ class UserModel
         require_once("../Dao/Connection.php");
 
         // Stage 1: Preparation
-        $query = "SELECT * FROM buskaro.passenger WHERE ID=? AND Pwd=?";
+        $query = "SELECT * FROM busbooking.passenger WHERE ID=? AND Pwd=?";
         $stmt = $conn->prepare($query);
         if (!$stmt) {
             echo "Preparation Failed: (" . $conn->errno . ")" . $conn->error;

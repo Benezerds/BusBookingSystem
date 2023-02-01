@@ -18,10 +18,10 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `buskaro`
+-- Database: `busbooking`
 --
-CREATE DATABASE IF NOT EXISTS `buskaro` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
-USE `buskaro`;
+CREATE DATABASE IF NOT EXISTS `busbooking` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+USE `busbooking`;
 
 -- --------------------------------------------------------
 
@@ -2577,7 +2577,7 @@ CREATE TABLE `pma__recent` (
 --
 
 INSERT INTO `pma__recent` (`username`, `tables`) VALUES
-('root', '[{\"db\":\"buskaro\",\"table\":\"bg\"},{\"db\":\"buskaro\",\"table\":\"passenger\"},{\"db\":\"buskaro\",\"table\":\"staff\"},{\"db\":\"buskaro\",\"table\":\"p_type\"},{\"db\":\"buskaro\",\"table\":\"routes\"},{\"db\":\"buskaro\",\"table\":\"student\"},{\"db\":\"buskaro\",\"table\":\"faculty\"},{\"db\":\"buskaro\",\"table\":\"department\"},{\"db\":\"buskaro\",\"table\":\"bus_instances\"},{\"db\":\"buskaro\",\"table\":\"guest\"}]');
+('root', '[{\"db\":\"busbooking\",\"table\":\"bg\"},{\"db\":\"busbooking\",\"table\":\"passenger\"},{\"db\":\"busbooking\",\"table\":\"staff\"},{\"db\":\"busbooking\",\"table\":\"p_type\"},{\"db\":\"busbooking\",\"table\":\"routes\"},{\"db\":\"busbooking\",\"table\":\"student\"},{\"db\":\"busbooking\",\"table\":\"faculty\"},{\"db\":\"busbooking\",\"table\":\"department\"},{\"db\":\"busbooking\",\"table\":\"bus_instances\"},{\"db\":\"busbooking\",\"table\":\"guest\"}]');
 
 -- --------------------------------------------------------
 

@@ -14,13 +14,13 @@ class BookedTicketModel
     {
         $conn = require ("../Dao/Connection.php");
         $userID = $_SESSION['UserID'];
-        $sql="SELECT Type FROM buskaro.passenger WHERE ID='$userID'";
+        $sql="SELECT Type FROM busbooking.passenger WHERE ID='$userID'";
         $result = $conn->query($sql);
         $this->setRow($result->fetch_assoc());
 
         $this->setUserType($this->getRow(['Type']));
 
-        $sql1 = "SELECT * FROM buskaro.seat_matrix JOIN buskaro.routes ON buskaro.seat_matrix.RID = buskaro.routes.RID WHERE Passenger = '$userID' ORDER BY BusDate DESC";
+        $sql1 = "SELECT * FROM busbooking.seat_matrix JOIN busbooking.routes ON busbooking.seat_matrix.RID = busbooking.routes.RID WHERE Passenger = '$userID' ORDER BY BusDate DESC";
         $result1 = $conn->query($sql1);
 
         $this->setResult1($result1);
