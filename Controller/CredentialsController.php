@@ -18,12 +18,13 @@ class CredentialsController{
             header('Location: ../View/dashboard.php');
         }else{
             echo "<script type='text/javascript'>alert('Failed to Login! Incorrect Roll No or Password')</script>";
-            header('Location: ../');
+            header('Location: ../Controller/HomeController.php');
         }
     }
 
     //Register new user
     if(isset($_POST['signup'])){
         $user->registerUser();
+        header('Location: ../Controller/HomeController.php');
     }
 ?>

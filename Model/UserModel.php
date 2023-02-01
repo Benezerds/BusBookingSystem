@@ -110,7 +110,6 @@ class UserModel
         // Stage 3: Execution
         if ($stmt->execute()) {
             echo "<script type='text/javascript'>alert('Registration Successful')</script>";
-            header('Location: ../');
         } else {
             echo "Execution failed: (" . $stmt->errno . ")" . $stmt->error;
             echo "<script type='text/javascript'>alert('User Exists " . $conn->error . "')</script>";
