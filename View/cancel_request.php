@@ -12,8 +12,8 @@
     $seat = $_GET['seat'];
     $sql_start="SET AUTOCOMMIT = OFF; START TRANSACTION;";
     $result = $conn->query($sql_start);
-    $sql_instance="UPDATE buskaro.seat_matrix SET Passenger = NULL WHERE Passenger=".$userID." AND BID=".$bid." AND SeatNo=".$seat.";";
-    $sql_seat="UPDATE buskaro.bus_instances SET Seats_Left = Seats_Left + 1 WHERE BID=".$bid.";";
+    $sql_instance="UPDATE busbooking.seat_matrix SET Passenger = NULL WHERE Passenger=".$userID." AND BID=".$bid." AND SeatNo=".$seat.";";
+    $sql_seat="UPDATE busbooking.bus_instances SET Seats_Left = Seats_Left + 1 WHERE BID=".$bid.";";
     if(($conn->query($sql_instance) == TRUE)&&($conn->query($sql_seat) == TRUE))
     {
       $sql_commit = "COMMIT;";

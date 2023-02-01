@@ -24,7 +24,7 @@
 		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 	<!-- //Meta-Tags -->
 
-	<!-- Style --> <link rel="stylesheet" href="../css/style.css" type="text/css" media="all">
+	<!-- Style --> <link rel="stylesheet" href="/BusKaro/css/style.css" type="text/css" media="all">
 
 	<!-- Fonts -->
 		<link href="//fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
@@ -49,7 +49,7 @@ require 'dbconn.php';
 
 		<div class="login">
 			<h2>Sign In</h2>
-			<form action="../Controller/CredentialsController.php" method="post">
+			<form action="/BusKaro/Controller/CredentialsController.php" method="post">
 				<p> Sign In As </p>
 				<select name="Type" id="type">
 					<option value="Student">Student</option>
