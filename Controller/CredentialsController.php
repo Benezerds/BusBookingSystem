@@ -5,7 +5,7 @@ use Model\UserModel;
 
 require_once '../Model/UserModel.php';
 
-class CredentialsController{
+class CredentialsController {
 
 }
     $user = new UserModel();

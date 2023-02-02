@@ -65,11 +65,11 @@ class UserModel
             echo "Result Set Fetch Failed: (" . $stmt->errno . ")" . $stmt->error;
         }
 
+        //  Login Procedure
         $t = false;
         if ($res->num_rows) {
             $linha = $res->fetch_assoc();
             if ($linha['Pwd'] == $password) {
-                session_start();
                 $_SESSION['UserID'] = $linha['ID'];
                 $_SESSION['Type'] = $linha['Type'];
                 $_SESSION['Password'] = md5($linha['Pwd']);

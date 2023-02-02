@@ -21,8 +21,6 @@ if ($profile->getUserType() == 'Student'){
 
 if($profile->getUserType() == 'Staff'){
     $profileController->row= $profile->staffProfile();
-
-
 }
 
 if ($profile->getUserType() == 'Faculty'){
