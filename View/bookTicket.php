@@ -21,13 +21,13 @@
 	}?>
 	<div id="mySidenav" class="sidenav">
 	<a href="../View/dashboard.php" id="dashboard">Go Home<span class="glyphicon glyphicon-home"></span></a>
-  <a href="view_tickets.php" id="view">View Tickets<span class="glyphicon glyphicon-qrcode"></span></a>
-  <a href="cancelTicket.php" id="cancel">Cancel Tickets<span class="glyphicon glyphicon-remove-circle"></span></a>
+  <a href="../View/view_tickets.php" id="view">View Tickets<span class="glyphicon glyphicon-qrcode"></span></a>
+  <a href="../View/cancelTicket.php" id="cancel">Cancel Tickets<span class="glyphicon glyphicon-remove-circle"></span></a>
   <a href="../View/profile.php" id="profile">Your Profile<span class="glyphicon glyphicon-user"></span></a>
 	</div>
 	<div class="container">
 		<h2>Available Buses</h2>
-		<p>Kindly Select The Bus You Wish To Book Tickets For:</p>
+		<p>Select The Bus You Wish To Book Tickets For:</p>
 		<ul class="nav nav-tabs">
 		  	<li class="active"><a data-toggle="tab" href="#today">Today</a></li>
 	  		<li><a data-toggle="tab" href="#tomorrow">Tomorrow</a></li>
@@ -82,6 +82,7 @@
 			}
 	    ?>
 	    </div>
+
 	    <div id="tomorrow" class="tab-pane fade">
     		<h4>Buses Leaving Tomorrow...</h4>
 		<?php

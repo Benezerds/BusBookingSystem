@@ -21,9 +21,8 @@
     $qr_pass = '<<busbooking Digital Ticket>><Journey Date - '.$row['BusDate'].'><Route ID - '.$row['RID'].'><Seat Number - '.$row['SeatNo'].'><Passenger ID - '.$row['Passenger'].'><<busbooking!>>';
 	echo '<center><div class="container-fluid">
 					<div class="card bg-info text-white" style="width:30%">
-						<br><br>		
-						
-						<center><img class="card-img-top" src="/BusKaro/View/qr_gen.php?id='.$qr_pass.'" alt="Card image"><center>
+						<br><br>	
+						<center><img class="card-img-top" src="../images/qrcodeimg.jpg" alt=Card image" width="300" height="240" /><center>
 					  <div class="card-body">
 					    <center><h3 class="card-title">Bus Digital Ticket</h3>
 					    <h4 class="card-text">Journey Date - '.$row['BusDate'].'</h4>
