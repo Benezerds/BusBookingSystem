@@ -11,6 +11,7 @@ class CredentialsController {
     $user = new UserModel();
 
     // Begin session
+    session_start();
     if(isset($_POST['signin']) && isset($_POST['UserID']) && isset($_POST['Password'])){
         $login = $user->login();
 
