@@ -15,9 +15,9 @@
 	}?>
 	<div id="mySidenav" class="sidenav">
 	<a href="../View/dashboard.php" id="dashboard">Go Home<span class="glyphicon glyphicon-home"></span></a>
-  <a href="../View/view_tickets.php" id="view">View Tickets<span class="glyphicon glyphicon-qrcode"></span></a>
+  <a href="../Controller/TicketViewController.php" id="view">View Tickets<span class="glyphicon glyphicon-qrcode"></span></a>
   <a href="../View/cancelTicket.php" id="cancel">Cancel Tickets<span class="glyphicon glyphicon-remove-circle"></span></a>
-  <a href="../View/profile.php" id="profile">Your Profile<span class="glyphicon glyphicon-user"></span></a>
+  <a href="../Controller/ProfileController.php" id="profile">Your Profile<span class="glyphicon glyphicon-user"></span></a>
 	</div>
 	<div class="container">
 		<h2>Available Buses</h2>

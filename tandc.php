@@ -128,38 +128,11 @@
 
 
 <div class="container text-left">
-  <h1>We &hearts; open-source!</h1>
   <h3>The Bus  &nbsp;<i class="fab fa-github"></i>&nbsp; at <button type="button" class="btn btn-link"><h3><a href="https://github.com/Benezerds/BusBookingSystem"><i class="fab fa-github"></i>Bus Booking System</h3></a></button></h3>
 
-  <h3> The Repository is published under the MIT License at the end of this page. </h3><br><br>
   <h3> Basic Terms and Conditions </h3><br><br>
     <ol>
       <li>For the purpose of these Terms, wherever the context so requires "You" or "User" (would mean 'Bus Booking user') shall mean any natural or legal person who has agreed to become a buyer of the bus tickets and/or an availer of the Facility being offered on the Website.</li>
-      <li>The term "We", "Us", "Our" shall mean Bus Booking and/or its affiliates.</li>
-    <li>You are solely responsible for maintaining the confidentiality of Your account and password and for restricting access to Your device to prevent unauthorized access to Your account when You use the Website by registering an account with our webapp.</li>
-    <li>In the event that you use the Website through a registered account, You agree to accept responsibility for all activities that occur through your busbookingsystem account.</li>
-    <li>In the event that You use the Website through a registered account, You should take all necessary steps to ensure that the password is kept confidential and secure and should inform us immediately if You have any reason to believe that Your password has been compromised, or if the password is being, or is likely to be, used in an unauthorized manner. BusKaro shall not be liable for any losses You may incur owing to any compromised login credentials of Your BusKaro account. Please ensure that the details You provide BusKaro are correct, complete and up to date and inform BusKaro immediately of any changes to the information that You provide at the time of registering Your account with BusKaro.</li>
-    <li>You acknowledge that You only have a limited right to use the Website and that You have no right to modify any part of the Website or reproduce, copy, distribute, sell, resell or access the Facility for any commercial purposes.</li>
-    <li>For the purpose of booking bus tickets through the Website, we warrant that we shall be responsible for Issuing a valid ticket (a ticket that will be accepted by the bus operator)</li>
-    <li>You Can Book A Maximum Of 6 tickets over a span of two working days.</li>
-    <li>We DO NOT take any liability for the following:<br><br>
-        <ul>
-            <li>The bus operator's bus not departing from/reaching the pick-up point or destination on time</li>
-            <li>The bus operator's employee/s being rude to You</li>
-            <li>The bus operator's bus seats or the journey not being up to Your expectation</li>
-            <li>The bus operator modifying and/or cancelling your bus ticket reservation partially or completely due to unavoidable reasons as described in the following clauses<br><br>
-            <ol>
-            <li>Your baggage getting lost/stolen/damaged</li>
-            <li>The bus operator changing a customer's seat at the last minute to accommodate a female / child passenger</li>
-            <li>Bus departing without You boarding the bus, while You were waiting at the wrong boarding point (please call the bus operator to find out the exact boarding point if you are not a regular traveller of a particular bus operator)</li>
-            <li>The bus operator changing the boarding point and/or using a pick-up vehicle at the boarding point to take the passengers to the bus departure point</li>
-            <li>The bus operator not permitting Your baggage beyond a limit determined at the bus operator’s sole discretion.</li>
-            </ol>
-            </li>
-         </ul>
-      </li>
-     </ol>
-</div>
 
 <?php require 'View/footer.php'; ?>
 </body>
