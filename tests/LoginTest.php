@@ -4,7 +4,7 @@ use Model\UserModel;
 
 require_once '../Model/UserModel.php';
 
-class UserModelTest extends PHPUnit\Framework\TestCase
+class LoginTest extends PHPUnit\Framework\TestCase
 {
     public function testLoginSuccess()
     {
