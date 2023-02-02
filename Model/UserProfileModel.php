@@ -23,7 +23,6 @@ class UserProfileModel {
 
         public function studentProfile(){
             $sql_instance = "SELECT * FROM busbooking.student WHERE RollNo='$this->userID'";
-
             require_once("../Dao/Connection.php");
             $result = $this->conn->query($sql_instance);
             $row = $result->fetch_assoc();

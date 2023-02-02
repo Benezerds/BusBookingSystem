@@ -166,7 +166,7 @@ INSERT INTO `passenger` (`ID`, `Type`, `Pwd`) VALUES
 (1021, 'Staff', 'test3'),
 (50215, 'Faculty', 'test2'),
 (2017324, 'Student', 'test2'),
-(2017333, 'Student', 'test');
+(2017333, 'Student', 'teste');
 
 -- --------------------------------------------------------
 

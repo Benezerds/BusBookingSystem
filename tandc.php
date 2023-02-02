@@ -112,7 +112,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">BusKaro</a>
+      <a class="navbar-brand" href="../View/Dashboard.php">Bus Booking</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
@@ -129,16 +129,16 @@
 
 <div class="container text-left">
   <h1>We &hearts; open-source!</h1>
-  <h3>The BusKaro Repository is published on &nbsp;<i class="fab fa-github"></i>&nbsp; at <button type="button" class="btn btn-link"><h3><a href="https://github.com/ajwad-shaikh/Buskaro#buskaro"><i class="fab fa-github"></i>/ajwad-shaikh/BusKaro</h3></a></button></h3>
+  <h3>The Bus  &nbsp;<i class="fab fa-github"></i>&nbsp; at <button type="button" class="btn btn-link"><h3><a href="https://github.com/Benezerds/BusBookingSystem"><i class="fab fa-github"></i>Bus Booking System</h3></a></button></h3>
 
   <h3> The Repository is published under the MIT License at the end of this page. </h3><br><br>
   <h3> Basic Terms and Conditions </h3><br><br>
     <ol>
-      <li>For the purpose of these Terms, wherever the context so requires "You" or "User" (would mean 'BusKaro user') shall mean any natural or legal person who has agreed to become a buyer of the bus tickets and/or an availer of the Facility being offered on the Website.</li>
-      <li>The term "We", "Us", "Our" shall mean BusKaro and/or its affiliates.</li>
-    <li>You are solely responsible for maintaining the confidentiality of Your account and password and for restricting access to Your device to prevent unauthorized access to Your account when You use the Website by registering an account with BusKaro.</li>
-    <li>In the event that you use the Website through a registered account, You agree to accept responsibility for all activities that occur through your BusKaro account.</li>
-    <li>In the event that You use the Website through a registered account, You should take all necessary steps to ensure that the password is kept confidential and secure and should inform BusKaro immediately if You have any reason to believe that Your password has been compromised, or if the password is being, or is likely to be, used in an unauthorized manner. BusKaro shall not be liable for any losses You may incur owing to any compromised login credentials of Your BusKaro account. Please ensure that the details You provide BusKaro are correct, complete and up to date and inform BusKaro immediately of any changes to the information that You provide at the time of registering Your account with BusKaro.</li>
+      <li>For the purpose of these Terms, wherever the context so requires "You" or "User" (would mean 'Bus Booking user') shall mean any natural or legal person who has agreed to become a buyer of the bus tickets and/or an availer of the Facility being offered on the Website.</li>
+      <li>The term "We", "Us", "Our" shall mean Bus Booking and/or its affiliates.</li>
+    <li>You are solely responsible for maintaining the confidentiality of Your account and password and for restricting access to Your device to prevent unauthorized access to Your account when You use the Website by registering an account with our webapp.</li>
+    <li>In the event that you use the Website through a registered account, You agree to accept responsibility for all activities that occur through your busbookingsystem account.</li>
+    <li>In the event that You use the Website through a registered account, You should take all necessary steps to ensure that the password is kept confidential and secure and should inform us immediately if You have any reason to believe that Your password has been compromised, or if the password is being, or is likely to be, used in an unauthorized manner. BusKaro shall not be liable for any losses You may incur owing to any compromised login credentials of Your BusKaro account. Please ensure that the details You provide BusKaro are correct, complete and up to date and inform BusKaro immediately of any changes to the information that You provide at the time of registering Your account with BusKaro.</li>
     <li>You acknowledge that You only have a limited right to use the Website and that You have no right to modify any part of the Website or reproduce, copy, distribute, sell, resell or access the Facility for any commercial purposes.</li>
     <li>For the purpose of booking bus tickets through the Website, we warrant that we shall be responsible for Issuing a valid ticket (a ticket that will be accepted by the bus operator)</li>
     <li>You Can Book A Maximum Of 6 tickets over a span of two working days.</li>

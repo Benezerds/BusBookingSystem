@@ -142,7 +142,7 @@ require 'dbconn.php';
 
 	<div class="footer w3layouts agileits">
     	<p><span class="copyleft">&copy;</span> 2023. </a></p>
-		<p><a class="underline" href="aboutus.php">About the Project</a></p>
+		<p><a class="underline" href="abo   utus.php">About the Project</a></p>
 	</div>
 
 </body>
