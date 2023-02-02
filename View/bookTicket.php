@@ -16,7 +16,7 @@
 	if(isset($_GET['alert']))
 	{
 		echo '<div class = container><div class="alert alert-danger">
-		  <strong>You\'re off limits! Ab Bus bhi Karo ;) </strong> Remember, you can only book six tickets over a span of two days :)
+		  <strong>You\'re off limits! ;) </strong> Remember, you can only book six tickets over a span of two days :)
 		</div></div>';
 	}?>
 	<div id="mySidenav" class="sidenav">

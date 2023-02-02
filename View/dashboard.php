@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php
-  require_once '../View/header.php';
+    require_once '../View/header.php';
+    error_reporting(0);
 ?>
+
+
 <body>
   <style>
       /* Remove the navbar's default margin-bottom and rounded borders */
@@ -56,6 +59,14 @@
       <p>Eat Lunch In Peace, Ditch the Queue!</p>
     </div>
   </div> -->
+  <?php
+      if($_GET['booked'] == '1')
+      {
+      echo '<div class = container><div class="alert alert-success">
+              <strong>Yay! Your ticket is Booked!...</strong> Remember, you can always book your ticket here :)
+          </div></div>';
+      $_GET['alert'] = '0';
+  }?>
 
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
