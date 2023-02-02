@@ -41,7 +41,7 @@
                   <td>' . $row["Dst"] . '</td>
                   <td>' . $row["DTime"] . '</td>
                   <td>' . $row["SeatNo"] . '</td>
-                  <td><a href="/BusKaro/View/ticket.php?seat=' . $row['SeatNo'] . '&bid=' . $row['BID'] . '" class="btn btn-info" role="button">View</a></td>
+                  <td><a href="/BusKaro/Controller/CurrentTicketViewController.php?seat=' . $row['SeatNo'] . '&bid=' . $row['BID'] . '" class="btn btn-info" role="button">View</a></td>
                 </tr>';
           }
           ?>

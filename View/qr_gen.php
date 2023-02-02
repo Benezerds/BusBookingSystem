@@ -1,6 +1,9 @@
 <?php
+    session_start();
+    $path = $_SERVER['DOCUMENT_ROOT'];
+    $path .= "/phpqrcode.qrlib.php";
 
-    include '../phpqrcode/qrlib.php';
+    include ($path);
     $param = $_GET['id'];
     ob_start("callback");
     $codeText = $param;

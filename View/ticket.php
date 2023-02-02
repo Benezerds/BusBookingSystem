@@ -8,9 +8,9 @@
 	<?php require 'navbar.php';	?>
 	<div id="mySidenav" class="sidenav">
 	<a href="../View/dashboard.php" id="dashboard">Go Home<span class="glyphicon glyphicon-home"></span></a>
-  <a href="../View/view_tickets.php" id="view">View Tickets<span class="glyphicon glyphicon-qrcode"></span></a>
+  <a href="../Controller/TicketViewController.php" id="view">View Tickets<span class="glyphicon glyphicon-qrcode"></span></a>
   <a href="../View/cancelTicket.php" id="cancel">Cancel Tickets<span class="glyphicon glyphicon-remove-circle"></span></a>
-  <a href="../View/profile.php" id="profile">Your Profile<span class="glyphicon glyphicon-user"></span></a>
+  <a href="../Controller/ProfileController.php" id="profile">Your Profile<span class="glyphicon glyphicon-user"></span></a>
 	</div>
 	<div class="container">
 		<div class="alert alert-success">
@@ -18,18 +18,12 @@
 		</div>
 	</div>
 	<?php
-	require 'db_init.php';
-	$userID = $_SESSION['UserID'];
-	$bid = $_GET['bid'];
-	$seat = $_GET['seat'];
-	$sql_instance="SELECT * FROM busbooking.seat_matrix JOIN busbooking.routes ON busbooking.seat_matrix.RID = busbooking.routes.RID WHERE Passenger=".$userID." AND BID=".$bid." AND SeatNo=".$seat.";";
-	$result = $conn->query($sql_instance);
-	$row = $result->fetch_assoc();
-	$qr_pass = '<<busbooking Digital Ticket>><Journey Date - '.$row['BusDate'].'><Route ID - '.$row['RID'].'><Seat Number - '.$row['SeatNo'].'><Passenger ID - '.$row['Passenger'].'><<busbooking!>>';
+    $qr_pass = '<<busbooking Digital Ticket>><Journey Date - '.$row['BusDate'].'><Route ID - '.$row['RID'].'><Seat Number - '.$row['SeatNo'].'><Passenger ID - '.$row['Passenger'].'><<busbooking!>>';
 	echo '<center><div class="container-fluid">
 					<div class="card bg-info text-white" style="width:30%">
-						<br><br>
-						<center><img class="card-img-top" src="qr_gen.php?id='.$qr_pass.'" alt="Card image"><center>
+						<br><br>		
+						
+						<center><img class="card-img-top" src="/BusKaro/View/qr_gen.php?id='.$qr_pass.'" alt="Card image"><center>
 					  <div class="card-body">
 					    <center><h3 class="card-title">Bus Digital Ticket</h3>
 					    <h4 class="card-text">Journey Date - '.$row['BusDate'].'</h4>
