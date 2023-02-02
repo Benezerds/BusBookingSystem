@@ -68,7 +68,7 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="item active">
-        <img src="/BusKaro/images/carousel/bus.jpg" alt="BusKaro">
+        <img src="/BusBookingSystem/images/carousel/bus.jpg" alt="BusBookingSystem">
         <div class="carousel-caption">
           <h1>BusBooking!</h1>
           <h3>Because You Need To Eat Your Lunch In Peace...</h3>
@@ -76,17 +76,17 @@
       </div>
 
       <div class="item">
-        <img src="/BusKaro/images/carousel/bus_bg.jpeg" alt="BusKaro">
+        <img src="/BusBookingSystem/images/carousel/bus_bg.jpeg" alt="BusBookingSystem">
         <div class="carousel-caption">
-          <h1>BusKaro!</h1>
+          <h1>BusBookingSystem!</h1>
           <h3>Because You Have To Ditch The Queue...</h3>
         </div>
       </div>
 
       <div class="item">
-        <img src="/BusKaro/images/carousel/bus2.png" alt="BusKaro">
+        <img src="/BusBookingSystem/images/carousel/bus2.png" alt="BusBookingSystem">
         <div class="carousel-caption">
-          <h1>BusKaro!</h1>
+          <h1>BusBookingSystem!</h1>
           <h3>Because Juniors Baap Ke Naukar Nahin Hai...</h3>
         </div>
       </div>
@@ -138,13 +138,13 @@
     <h2><i class="fas fa-child"></i>&nbsp;Enquiries and Everything Else&nbsp;<i class="fas fa-child"></i></h2><br>
     <div class="row">
       <div class="col-sm-3">
-        <h3>About BusKaro</h3><br>
+        <h3>About Us</h3><br>
         <button type = "button" class = "btn btn-link btn-block">
           <a href="../aboutus.php"><span class="glyphicon glyphicon-bookmark"></span></a>
         </button>
       </div>
       <div class="col-sm-3">
-        <h3>Your BusBooking Profile</h3><br>
+        <h3>Your Profile</h3><br>
         <button type = "button" class = "btn btn-link btn-block">
           <a href="../Controller/ProfileController.php"><span class="glyphicon glyphicon-user"></span></a>
         </button>

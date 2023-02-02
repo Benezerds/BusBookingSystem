@@ -15,16 +15,16 @@
 <!-- Head -->
 <head>
 
-	<title>BusKaro</title>
+	<title>BusBookingSystem</title>
 
 	<!-- Meta-Tags -->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		<meta name="keywords" content="BusKaro, 24x7 Institute Bus Booking Portal" />
+		<meta name="keywords" content="BusBookingSystem, 24x7 Institute Bus Booking Portal" />
 		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 	<!-- //Meta-Tags -->
 
-	<!-- Style --> <link rel="stylesheet" href="/BusKaro/css/style.css" type="text/css" media="all">
+	<!-- Style --> <link rel="stylesheet" href="/BusBookingSystem/css/style.css" type="text/css" media="all">
 
 	<!-- Fonts -->
 		<link href="//fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
@@ -49,7 +49,7 @@ require 'dbconn.php';
 
 		<div class="login">
 			<h2>Sign In</h2>
-			<form action="/BusKaro/Controller/CredentialsController.php" method="post">
+			<form action="/BusBookingSystem/Controller/CredentialsController.php" method="post">
 				<p> Sign In As </p>
 				<select name="Type" id="type">
 					<option value="Student">Student</option>

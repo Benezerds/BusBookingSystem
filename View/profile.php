@@ -19,7 +19,7 @@
             echo '<center><div class="container-fluid">
 							<div class="card bg-info pl-2" style="width:25%">
 								<br><br>
-								<div class="card-header"><h3>Your BusKaro Profile</h3></div><br><br>
+								<div class="card-header"><h3>Your Profile</h3></div><br><br>
 								<h4 class="card-body text-justify">&nbsp;&nbsp;&nbsp;&nbsp;Your Name&emsp;-&emsp;' . $row['SName'] . ' </h4>
 									<h4 class="card-body text-justify">&nbsp;&nbsp;&nbsp;&nbsp;Roll No&emsp;-&emsp;' . $row['RollNo'] . ' </h4>
 									<h4 class="card-body text-justify">&nbsp;&nbsp;&nbsp;&nbsp;Batch&emsp;-&emsp;' . $row['Batch'] . '</h4>
@@ -33,7 +33,7 @@
 			echo '<center><div class="container-fluid">
 							<div class="card bg-info pl-2" style="width:25%">
 								<br><br>
-								<div class="card-header"><h3>Your BusKaro Profile</h3></div><br><br>
+								<div class="card-header"><h3>Your Profile</h3></div><br><br>
 								<h4 class="card-body text-justify">&nbsp;&nbsp;&nbsp;&nbsp;Your Name&emsp;-&emsp;'.$row['FName'].'</h4>
 									<h4 class="card-body text-justify">&nbsp;&nbsp;&nbsp;&nbsp;Roll No&emsp;-&emsp;'.$row['FID'].' </h4>
 									<h4 class="card-body text-justify">&nbsp;&nbsp;&nbsp;&nbsp;Branch&emsp;-&emsp;'.$row['Dept'].'</h4>
@@ -46,7 +46,7 @@
 			echo '<center><div class="container-fluid">
 							<div class="card bg-info pl-2" style="width:25%">
 								<br><br>
-								<div class="card-header"><h3>Your BusKaro Profile</h3></div><br><br>
+								<div class="card-header"><h3>Your Profile</h3></div><br><br>
 								<h4 class="card-body text-justify">&nbsp;&nbsp;&nbsp;&nbsp;Your Name&emsp;-&emsp;'.$row['EName'].'</h4>
 									<h4 class="card-body text-justify">&nbsp;&nbsp;&nbsp;&nbsp;Roll No&emsp;-&emsp;'.$row['EID'].' </h4>
 									<h4 class="card-body text-justify">&nbsp;&nbsp;&nbsp;&nbsp;Blood Group&emsp;-&emsp;'.$row['BloodG'].'</h4>
