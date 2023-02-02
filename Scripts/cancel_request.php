@@ -2,11 +2,11 @@
 <html lang="en">
   <?php
     require_once '../Dao/Connection.php';
-    require_once 'header.php';
+    require_once '../View/header.php';
   ?>
 <body>
 	<?php
-    require_once 'navbar.php';
+    require_once '../View/navbar.php';
     $userID = $_SESSION['UserID'];
     $bid = $_GET['bid'];
     $seat = $_GET['seat'];
@@ -19,7 +19,7 @@
       $sql_commit = "COMMIT;";
       $result = $conn->query($sql_commit);
       #echo 'Ticket Cancelled Successfully!';
-      header('Location: cancelTicket.php?alert=1');
+      header('Location: ../View/cancelTicket.php?alert=1');
     }
     else
     {

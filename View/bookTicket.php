@@ -6,12 +6,6 @@
 ?>
 <body>
 	<?php require_once 'navbar.php';
-		/*
-		if(!$_SESSION['UserID'] )
-			header('location: logout.php') ;
-		elseif(!((md5($_SESSION['UserID']))==$_SESSION['CheckID'])){
-			header('location: logout.php') ;
-		}*/
 
 	if(isset($_GET['alert']))
 	{
@@ -68,13 +62,13 @@
 							<td>'.$row["Dst"].'</td>
 							<td>'.$row["DTime"].'</td>';
 								if($row['Seats_Left']>15){
-									echo '<td><a href="ticket_request.php?bid='.$row["BID"].'" class="btn btn-success" role="button">Book Now</a></td>
+									echo '<td><a href="../Scripts/ticket_request.php?bid='.$row["BID"].'" class="btn btn-success" role="button">Book Now</a></td>
 							</tr>';}
 								elseif($row['Seats_Left']>0){
-									echo '<td><a href="ticket_request.php?bid='.$row["BID"].'" class="btn btn-warning" role="button">Book Now</a></td>
+									echo '<td><a href="../Scripts/ticket_request.php?bid='.$row["BID"].'" class="btn btn-warning" role="button">Book Now</a></td>
 							</tr>';}
 								else{
-									echo '<td><a href="ticket_request.php?bid='.$row["BID"].'" class="btn btn-danger disabled" role="button">Sold Out!</a></td>
+									echo '<td><a href="../Scripts/ticket_request.php?bid='.$row["BID"].'" class="btn btn-danger disabled" role="button">Sold Out!</a></td>
 							</tr>';}
 
 				}
@@ -117,7 +111,7 @@
 							<td>'.$row["Src"].'</td>
 							<td>'.$row["Dst"].'</td>
 							<td>'.$row["DTime"].'</td>
-									<td><a href="ticket_request.php?bid='.$row["BID"].'" class="btn btn-success" role="button">Book Now</a></td>
+									<td><a href="../Scripts/ticket_request.php?bid='.$row["BID"].'" class="btn btn-success" role="button">Book Now</a></td>
 							</tr>';
 				}
 				echo '</tbody> </table>';

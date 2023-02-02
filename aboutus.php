@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <!-- Theme Made By www.w3schools.com -->
-  <title>About Us</title>
+  <title>PMH Bus System</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -205,26 +205,26 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="passenger/bookTicket.php"><span class="glyphicon glyphicon-log-out"></span>&nbsp;Buy Ticket!</a></li>
+        <li><a href="passenger/bookTicket.php"><span class="glyphicon glyphicon-log-out"></span>&nbsp;Get Onboard!</a></li>
       </ul>
     </div>
   </div>
 </nav>
 
 <div class="jumbotron text-center">
-  <h1>About BusKaro</h1>
-  <p>Local Bus Booking App for Institutions and Societies</p>
+  <h1>About PMH Bus System</h1>
+  <p>Local Bus Booking System </p>
 </div>
 
 <!-- Container (About Section) -->
 <div id="about" class="container-fluid">
   <div class="row">
     <div class="col-sm-9">
-      <h2>What is Buskaro?</h2>
-      <h4>BusKaro is an online bus ticket booking platform. At its initial stage, BusKaro is designed and optimised for use in PDPM IIITDM Jabalpur, Madhya Pradesh, India.</h4>
-      <h4>BusKaro aims to make the long wait in queues obsolete. Tickets of all buses at all the time slots are
-		  made available for a comfortable booking experience, from anywhere. BusKaro provides the users the choice and comfort to plan their travel and evening get-outs from the comfort of their hostels and houses.</h4>
-	   <h4>The buses are not owned or operated by BusKaro. The tickets for the same are available on BusKaro and are also available with the respective bus contractors.</h4>
+      <h2>What is PMH Bus System?</h2>
+      <h4>PMH is an online bus ticket booking platform. At its initial stage, PMH is designed and optimised for use in Indonesia.</h4>
+      <h4>PMH aims to make the long wait in queues obsolete. Tickets of all buses at all the time slots are
+		  made available for a comfortable booking experience, from anywhere. PMH provides the users the choice and comfort to plan their travel and evening get-outs from the comfort of their hostels and houses.</h4>
+	   <h4>The buses are not owned or operated by PMH. The tickets for the same are available on PMH and are also available with the respective bus contractors.</h4>
     </div>
     <div class="col-sm-3">
       <center>
@@ -246,8 +246,8 @@
     </center>
     </div>
     <div class="col-sm-8">
-      <h2>The Motivation</h2>
-      <h4>BusKaro was conceived as a part of the end semester project for Course CS201 - Database Management Systems. The primary motivation however was to get rid of the hassle of engaging in queues for booking bus tickets for self and sometimes for seniors. </h4>
+      <h2></h2>
+      <h4></h4>
     </div>
   </div>
 </div>
@@ -319,22 +319,26 @@
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
       <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
     </ol>
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <h4><strong>Ajwad Shaikh</strong></h4>
-        <div class="container"><h4>The bare instinct of survival is what he’s good at. Over the years, the instinct has assimilated into his work ethos, his passion for development, and his professional commitments — they simply won’t die out. The need to break out of the ordinary has led him to explore 		  pathways before coming of age. A coder at heart, hands and mind, from commented messages in code inspections, foo.bar links, access to what was denied, to the overwhelming joy of an AC(100), the adrenaline gushes each time he runs a code unit with or without changes (because hope is a good thing).
+        <h4><strong>Benaya Abiezer</strong></h4>
+        <div class="container"><h4> Business Information Systems Student
         </h4></div>
       </div>
       <div class="item">
-        <h4><strong>Kaushal Kishor Sharma</strong></h4><div class="container"><h4>"The dedication to his work and finding the best solutions for different problems is what makes him a hard worker. He is a great supporter of others around him. The way he takes up a task and makes it his shown shows his dedication to learn, strive and be better than he is has made him into one of the fast learning minds and a backbone to any team he works in."</h4></div>
+        <h4><strong>Jefferson Richard Djaya</strong></h4><div class="container"><h4>Business Information Systems Student</h4></div>
       </div>
       <div class="item">
-       <h4><strong>Arnav Deep</strong></h4><div class="container"><h4>"He likes to learn about new things and laze around in his own time zone. His sense of humour in serious situations has always gotten the best out of him. An eager to understand how things work, he takes interest in every thing he can learn. His ability to not give up is quite tenacious and admiring. He is a human who changes most of the ways things work and make them their own."</h4></div>
+       <h4><strong>Sabrina McPhail</strong></h4><div class="container"><h4> Business Information Systems Student</h4></div>
       </div>
-    </div>
+      <div class="item">
+          <h4><strong>Aurelya</strong></h4><div class="container"><h4> Business Information Systems Student</h4></div>
+      </div>
+  </div>
 
     <!-- Left and right controls -->
     <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">

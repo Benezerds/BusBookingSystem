@@ -2,11 +2,11 @@
 <html lang="en">
   <?php
     require_once '../Dao/Connection.php';
-    require_once 'header.php';
+    require_once '../View/header.php';
   ?>
 <body>
 	<?php
-    require_once 'navbar.php';
+    require_once '../View/navbar.php';
     $bid = $_GET['bid'];
     $sql_instance="SELECT * FROM busbooking.seat_matrix WHERE Passenger=".$userID." AND (BusDate = CURDATE() OR BusDate = CURDATE() + INTERVAL 1 DAY);";
     $result = $conn->query($sql_instance);
@@ -25,7 +25,7 @@
         $sql_commit = "COMMIT;";
         $result = $conn->query($sql_commit);
         //  Test
-        $redurl = "dashboard.php?booked=1";
+        $redurl = "../View/dashboard.php?booked=1";
         redirect($redurl);
       }
       else
